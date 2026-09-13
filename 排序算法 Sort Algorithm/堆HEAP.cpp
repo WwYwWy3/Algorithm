@@ -2,12 +2,6 @@
 #include <vector>
 #include <algorithm>
 
-bool cmp(int a, int b){
-	return a < b;
-}
-
-
-
 struct HEAP{
     std::vector<int> heap;   
     int max_size, cur_size;
